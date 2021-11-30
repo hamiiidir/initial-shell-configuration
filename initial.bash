@@ -1,5 +1,5 @@
 sudo apt update;
-sudo apt upgrade;
+# sudo apt upgrade;
 sudo apt install zsh;
 
 sudo localectl set-locale LANG=en_IN.UTF-8;
