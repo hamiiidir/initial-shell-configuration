@@ -12,10 +12,8 @@ echo 'eval "$(starship init zsh)"' >> ~/.bashrc;
 
 # sed -i 's/plugins=(git)/plugins=(git zsh-syntax-highlighting)/g' ~/.zshrc;
 
-
-source ~/.bashrc;
-
 sudo localectl set-locale LANG=en_IN.UTF-8;
 
 cd ~/.local/share/fonts && curl -fLo "Fira Code Regular Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Regular/complete/Fira%20Code%20Regular%20Nerd%20Font%20Complete.ttf
-                                                                                
+
+source ~/.bashrc;                                                                                
