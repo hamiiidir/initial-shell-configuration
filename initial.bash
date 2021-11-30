@@ -1,6 +1,5 @@
 sudo apt update;
 sudo apt upgrade;
-sudo apt install zsh;
 
 # sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
 
@@ -14,6 +13,6 @@ echo 'eval "$(starship init zsh)"' >> ~/.bashrc;
 
 sudo localectl set-locale LANG=en_IN.UTF-8;
 
-cd ~/.local/share/fonts && curl -fLo "Fira Code Regular Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Regular/complete/Fira%20Code%20Regular%20Nerd%20Font%20Complete.ttf
+cd ~/.local/share/fonts && curl -fLo "Fira Code Regular Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Regular/complete/Fira%20Code%20Regular%20Nerd%20Font%20Complete.ttf;
 
 source ~/.bashrc;                                                                                
