@@ -1,1 +1,1 @@
-# initial-shell-configuration
+# initial-ubuntu-setup
